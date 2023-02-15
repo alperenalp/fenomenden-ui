@@ -1,0 +1,57 @@
+.container-home{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home{
+    width: 70%;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sidebar{
+    width: 15%;
+}
+
+.sidebar > p{
+    text-align: center;
+}
+
+.fenomenler{
+    display: flex;
+    flex-direction: column;
+}
+
+.fenomenler > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fenomenler > a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.product-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.product-home > p{
+    text-align: center;
+}
+
+.product-home-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    margin-left: -20px;
+}

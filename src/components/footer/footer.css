@@ -1,0 +1,41 @@
+
+footer{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+   background-color: #f9f9f9;
+}
+
+.footer{
+    width: 60%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.pd-5{
+    padding: 20px;
+}
+
+.c-pointer{
+    cursor: pointer;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+li:hover{
+    text-decoration: underline;
+}
